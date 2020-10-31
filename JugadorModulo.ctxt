@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=JugadorModulo
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Tablero\ here.\r\n\r\n\ @author\ Dylan\ Tenorio\ Rojas\r\n\ @version\ 11/10/2020\r\n
+comment1.params=
+comment1.target=JugadorModulo()
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Tablero\r\n\ Inicia\ la\ matriz\ del\ tablero\ con\ los\ valores\ en\ 0\r\n\ \r\n
+comment2.params=turno
+comment2.target=boolean\ CalcularTurno(int)
+comment2.text=\r\n\ El\ atributo\ turno\ siempre\ inicia\ en\ 1\ ya\ que\ el\ primero\ en\ jugar\ es\ el\ color\ blanco,\ el\ metodo\ revisa\ que\r\n\ quien\ intente\ jugar\ sea\ el\ mismo\ que\ el\ atributo\ turno\ y\ retorna\ un\ booleano\ si\ es\ correcto\ o\ no,\ ademas\ de\r\n\ cambiar\ el\ turno\ si\ el\ booleano\ es\ correcto\r\n
+comment3.params=
+comment3.target=void\ CambiarTurno()
+comment3.text=\r\n\ Cambia\ el\ turno\ en\ caso\ de\ que\ haya\ habido\ un\ error\r\n
+numComments=4

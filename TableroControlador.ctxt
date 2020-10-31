@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=TableroControlador
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TableroControlador\ here.\r\n\r\n\ @author\ Dylan\r\n\ @version\ 11/10/2020\r\n
+comment1.params=
+comment1.target=TableroControlador()
+comment2.params=
+comment2.target=void\ MostrarTablero()
+comment2.text=\ \r\n\ Recibe\ el\ string\ del\ tablero\ del\ modulo\ y\ lo\ envia\ a\ la\ vista\r\n
+comment3.params=color\ columna
+comment3.target=boolean\ InsertarFicha(int,\ int)
+comment3.text=\ \r\n\ Le\ indica\ al\ modulo\ que\ color\ y\ en\ que\ columna\ debe\ ingresar\ una\ ficha\r\n\ \r\n\ @param\ color\:\ el\ color\ de\ la\ ficha,\ 1\ \=\ blanco\ y\ 2\ \=\ negro\r\n\ @param\ columna\:\ la\ columna\ de\ la\ matriz\ en\ la\ que\ se\ debe\ ingresar\ el\ tablero\r\n\ @return\:\ un\ booleano\ para\ notificar\ si\ hubo\ un\ error\ al\ ingresar\ la\ ficha\r\n
+comment4.params=
+comment4.target=int\ RevisarTablero()
+comment4.text=\ \r\n\ Un\ metodo\ para\ revisar\ el\ tablero,\ usa\ los\ metodos\ de\ revision\ del\ modulo\ y\ en\ caso\ de\ tener\r\n\ un\ ganador\ devuelve\ la\ variable\ con\ un\ dato\ diferente\ de\ 0\r\n\ \r\n\ @return\:\ un\ entero\ entre\ 0\ y\ 2\ para\ notificar\ si\ hay\ un\ ganador\r\n
+comment5.params=
+comment5.target=int\ RevisarTableroCompleto()
+comment5.text=\ \r\n\ revisa\ que\ el\ tablero\ aun\ tenga\ espacios\ disponibles\r\n\ \r\n\ @return\:\ un\ valor\ entero\ entre\ 0\ y\ 1\ para\ notificar\ si\ quedan\ espacios\ disponibles\ \r\n
+comment6.params=condicionGane\ condicionSeguirJugando
+comment6.target=void\ FinDeLaPartida(int,\ int)
+comment6.text=\ \r\n\ envia\ a\ la\ vista\ los\ valores\ del\ ganador\ o\ si\ fue\ un\ empate\r\n\ \r\n\ @param\:\ condicionGane\:\ un\ entero\ entre\ 1\ y\ 2\ si\ hubo\ un\ ganador\ indicando\ cual\ fue\r\n\ @param\:\ condicionSeguirJugando\:\ un\ entero\ entre\ 0\ y\ \ 1\ si\ el\ juego\ quedo\ en\ empate\ por\ falta\ \r\n\ de\ casilla\ libres\r\n
+numComments=7
